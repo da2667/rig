@@ -7,5 +7,3 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - npm i
-      - npm start
