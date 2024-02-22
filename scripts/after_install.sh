@@ -10,4 +10,4 @@ nvm use 18.15.0
 # install dependencies
 npm install
 npm run build
-npm start
+screen -d -m npm start
