@@ -4,6 +4,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - npm i
   post_build:
     commands:
       - echo Build completed on `date`
+      - npm start
