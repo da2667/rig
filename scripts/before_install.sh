@@ -3,8 +3,7 @@
 # navigate to app folder
 cd /app
 
-# install node and npm
-apt-get install curl
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-apt-get install nodejs -y
-apt-get install npm -y
+# install nvm and node 18
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+nvm install 18.15.0
