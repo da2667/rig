@@ -1,6 +1,6 @@
 version: 0.0
 
-os: linux 
+os: linux
 
 files:
   - source: /
@@ -14,7 +14,6 @@ permissions:
     group: ec2-user
 
 hooks:
-
   BeforeInstall:
     - location: scripts/before_install.sh
       timeout: 300
