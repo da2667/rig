@@ -1,0 +1,10 @@
+.message {
+  width: 40%;
+}
+
+.chat {
+  position: fixed;
+  width: 85%;
+  right: 0;
+  height: 100%;
+}
